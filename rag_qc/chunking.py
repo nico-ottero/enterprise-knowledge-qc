@@ -9,7 +9,7 @@ class Chunk:
     text: str
 
 def chunk_text(text: str, max_chars: int = 1200, overlap: int = 150) -> list[str]:
-    # chunk por tamaño con solapamiento; robusto y suficiente para empezar
+    
     text = " ".join(text.split())
     if len(text) <= max_chars:
         return [text]
