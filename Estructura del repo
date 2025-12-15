@@ -1,0 +1,21 @@
+enterprise-rag-qc/
+  README.md
+  requirements.txt
+  .env.example
+  data/
+    raw/
+    processed/
+  rag_qc/
+    __init__.py
+    config.py
+    utils.py
+    ingest.py
+    chunking.py
+    embeddings.py
+    index.py
+    retrieve.py
+    judge.py
+    answer.py
+    cli.py
+  scripts/
+    make_sample_docs.py
